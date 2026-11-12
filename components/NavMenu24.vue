@@ -1,12 +1,15 @@
 <template>
     <li>
-        <a href="#" class="block py-2 px-3 text-xs text-gray-700 uppercase rounded bg-transparent md:p-0 hover:text-blue-800/90">{{title}}</a>
+        <NuxtLink :to="to" class="block py-2 px-3 text-xs text-white uppercase rounded bg-transparent md:p-0 hover:text-sky-200/90">
+          {{title}}
+        </NuxtLink>
     </li>
 </template>
 
 <script setup lang="ts">
 defineProps<{
-  title?: string
+  title?: string,
+  to?: string
 }>()
 </script>
 

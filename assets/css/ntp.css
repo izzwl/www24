@@ -1415,3 +1415,12 @@ width: 38vw;
     }
 
 }
+
+.cert-display{
+    background-color: var(--gray);
+    position: relative;
+    width: 87vw;
+    background-size: cover;
+    margin-left: 13vw;
+    color: red;
+}
