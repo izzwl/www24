@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import path from 'path';
 export default defineNuxtConfig({
+  server: {
+    port: process.env.NUXT_SERVER_PORT,
+    host: process.env.NUXT_SERVER_HOST,
+  },
   devtools: { enabled: true },
   runtimeConfig: {
     dbHost: process.env.DB_HOST || '127.0.0.1',
