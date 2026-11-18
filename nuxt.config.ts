@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import path from 'path';
+import './scripts/patch-pinia.js';
 export default defineNuxtConfig({
   server: {
     port: process.env.NUXT_SERVER_PORT,
