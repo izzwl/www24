@@ -1145,10 +1145,10 @@ const handleLogout = async () => {
   if (!confirm('Apakah Anda yakin ingin keluar dari CMS?')) return;
   try {
     await $fetch('/api/auth/logout', { method: 'POST' });
-    await navigateTo('/admin/login');
+    await navigateTo('/adminwww24/login');
   } catch (err) {
     console.error('Logout error:', err);
-    await navigateTo('/admin/login');
+    await navigateTo('/adminwww24/login');
   }
 };
 

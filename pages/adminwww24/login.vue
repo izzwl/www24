@@ -142,7 +142,7 @@ onMounted(async () => {
   try {
     const res: any = await $fetch('/api/auth/me');
     if (res && res.authenticated) {
-      await navigateTo('/admin');
+      await navigateTo('/adminwww24');
     }
   } catch {
     // Abaikan jika belum login
@@ -168,7 +168,7 @@ const handleLogin = async () => {
     });
 
     if (res && res.success) {
-      await navigateTo('/admin');
+      await navigateTo('/adminwww24');
     } else {
       errorMessage.value = 'Login gagal. Silakan coba lagi.';
     }
