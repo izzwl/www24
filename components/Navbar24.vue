@@ -52,13 +52,12 @@ ul.ntp-menu li button{
                     <NavDropdownMenu24 title="MRO Industrial" to="/our-services/mro-industrial"/>
                     <!-- <NavDropdownMenu24 title="PT NTP Industrial Brochure"/> -->
                     <NavDropdownMenu24 title="Training" to="/training"/>
-                    <NavDropdownMenu24 title="Capabilities" to="/capabilities"/>
-                    <NavDropdownMenu24 title="Field Services"  to="/field-services"/>
+                    <NavDropdownMenu24 title="Field Services" to="/field-services"/>
                 </NavDropdown24>
 
                 <NavDropdown24 id="dd-facilities" title="Facilities">
                     <NavDropdownMenu24 title="Our Facilities"  to="/our-facilities"/>
-                    <NavDropdownMenu24 title="Explore Our Facility (VR Facility Tour)" to="/vr-tour"/>
+                    <!-- VR Tour temporarily removed as per redesign notes -->
                 </NavDropdown24>
                 <!-- <NavMenu24 title="Procurement" to="/procurement"/> -->
                 <NavDropdown24 id="dd-contact" title="Contact">

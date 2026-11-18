@@ -12,6 +12,8 @@ node_modules
 # Logs
 logs
 *.log
+server/data/logs/*.json
+!server/data/logs/.gitkeep
 
 # Misc
 .DS_Store

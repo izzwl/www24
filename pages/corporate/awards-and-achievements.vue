@@ -1,49 +1,103 @@
 <template>
-    <div class="">
-        <div class="">
-            <Navbar24/>
+  <div class="bg-white">
+    <Navbar24 />
 
-            <HeaderSectionTest bg="bg-[url('/static/img/ntp-bg-old.jpg')]">
-              <template #h1>AWARDS AND ACHIEVEMENTS</template>
-            </HeaderSectionTest>
+    <HeaderSectionTest
+      :title="content?.headerTitle || 'AWARDS AND ACHIEVEMENTS'"
+      :bg-image="content?.headerBg"
+    >
+      <template #h1>{{ content?.headerTitle || 'AWARDS AND ACHIEVEMENTS' }}</template>
+    </HeaderSectionTest>
 
-            <section class="py-16 sm:py-24 bg-white">
-              <div class="px-12 mb-12">
-                <div class="grid gap-4 grids-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto">
-                  <div>
-                    <h1 class="mb-10 text-left text-3xl font-bold text-blue-950 md:text-4xl ">AWARDS</h1>
-                  </div>
-                  <div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                </div>
+    <section class="py-16 sm:py-24 bg-white">
+      <div class="max-w-screen-xl mx-auto px-6">
+        <SectionIntroHeader
+          v-for="(intro, idx) in activeIntroSections"
+          :key="intro.id || idx"
+          :badge="intro.badge || 'Track Record'"
+          :title="intro.title || 'AWARDS AND ACHIEVEMENTS'"
+          :description="intro.description || 'Recognitions of excellence in aerospace engineering, industrial maintenance, and safety reliability over 30 years of continuous operation.'"
+        />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            v-for="(item, aIdx) in activeAwards"
+            :key="item.id || aIdx"
+            class="p-6 rounded-2xl bg-slate-50 border border-slate-200 shadow-xs hover:border-amber-400 hover:shadow-md transition flex flex-col justify-between"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span class="text-2xl font-black text-amber-500">{{ item.year }}</span>
+                <span class="text-xs font-semibold px-2.5 py-1 bg-blue-950 text-white rounded">
+                  {{ item.badge || 'NTP Milestone' }}
+                </span>
               </div>
-
-              <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-4 grid-cols-2 md:grid-cols-5">
-                <img class="m-auto" src="/static/img/certification/easa.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/faa.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/dnv.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/anac.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/ge.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/honeywell.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/imaa.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/kan.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/kemenhub.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/mh.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/solar.jpg" alt="">
-                <img class="m-auto" src="/static/img/certification/tniau.jpg" alt="">
-              </div>
-            </section>
-
-            <FooterSection/>
+              <h3 class="text-xl font-bold text-blue-950 mb-2 leading-snug">{{ item.title }}</h3>
+              <span v-if="item.organization" class="text-xs font-semibold text-slate-500 block mb-3">
+                {{ item.organization }}
+              </span>
+              <p v-if="item.description" class="text-xs md:text-sm text-slate-600 leading-relaxed">
+                {{ item.description }}
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
+
+    <FooterSection />
+  </div>
 </template>
+
 <script setup lang="ts">
+import { computed } from 'vue';
+
 definePageMeta({
-    layout:'tw'
+  layout: 'tw'
 });
+
+useHead({
+  title: 'Awards & Achievements'
+});
+
+const { data: content } = await useSiteContent('awards');
+
+const activeIntroSections = computed(() => {
+  if (Array.isArray(content.value?.introSections) && content.value.introSections.length > 0) {
+    return content.value.introSections.filter((i: any) => i.isActive !== false);
+  }
+  return [
+    {
+      badge: content.value?.badge || 'Track Record',
+      title: content.value?.title || 'AWARDS AND ACHIEVEMENTS',
+      description: content.value?.description || 'Recognitions of excellence in aerospace engineering, industrial maintenance, and safety reliability over 30 years of continuous operation.'
+    }
+  ];
+});
+
+const activeAwards = computed(() => {
+  const list = content.value?.items || defaultItems;
+  return list.filter((item: any) => item.isActive !== false);
+});
+
+const defaultItems = [
+  {
+    title: 'Excellence in Defense Aviation MRO',
+    year: '2023',
+    organization: 'Ministry of Defence RI',
+    description: 'Awarded for exceptional service reliability on Indonesian military aero fleet overhaul.'
+  },
+  {
+    title: 'Top Performance Authorized Maintenance Center',
+    year: '2022',
+    organization: 'OEM Partner Network',
+    description: 'Recognized for top quartile turnaround time and zero-defect quality score.'
+  },
+  {
+    title: 'Industrial Turbine Overhaul Milestone',
+    year: '2021',
+    organization: 'BPPT / BRIN',
+    description: 'Achievement for reverse engineering and 4MW geothermal turbine operations at Kamojang.'
+  }
+];
 </script>

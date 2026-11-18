@@ -1,113 +1,117 @@
 <template>
-    <div class="">
-        <div class="">
-            <Navbar24/>
+  <div class="bg-white">
+    <Navbar24 />
 
-            <HeaderSectionTest bg="bg-[url('/static/img/ntp-bg-old.jpg')]">
-              <template #h1>CONTACT US</template>
-            </HeaderSectionTest>
+    <HeaderSectionTest
+      :title="content?.headerTitle || 'CONTACT US'"
+      :bg-image="content?.headerBg"
+    >
+      <template #h1>{{ content?.headerTitle || 'CONTACT US' }}</template>
+    </HeaderSectionTest>
 
-            <section class="py-12 px-12 bg-white">
-              <div class="max-w-screen-xl mx-auto md:px-4 sm:px-6 lg:px-8">
-                  
-                  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 mb-16">
-                      
-                      <div class="bg-gray-100 p-8 rounded-lg shadow-sm">
-                          <h2 class="text-2xl font-bold text-[#172140] mb-6">LEAVE A MESSAGE</h2>
-                          
-                          <form action="#" class="space-y-4">
-                              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                  <input type="text" placeholder="Name" class="w-full bg-white border-none p-4 rounded text-sm outline-none focus:ring-2 focus:ring-amber-500 shadow-sm" />
-                                  <input type="email" placeholder="Email" class="w-full bg-white border-none p-4 rounded text-sm outline-none focus:ring-2 focus:ring-amber-500 shadow-sm" />
-                              </div>
-                              
-                              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                  <input type="text" placeholder="Subject" class="w-full bg-white border-none p-4 rounded text-sm outline-none focus:ring-2 focus:ring-amber-500 shadow-sm" />
-                                  <input type="text" placeholder="Phone" class="w-full bg-white border-none p-4 rounded text-sm outline-none focus:ring-2 focus:ring-amber-500 shadow-sm" />
-                              </div>
-                              
-                              <textarea rows="6" placeholder="Comment" class="w-full bg-white border-none p-4 rounded text-sm outline-none focus:ring-2 focus:ring-amber-500 shadow-sm resize-none"></textarea>
-                              
-                              <div>
-                                  <button type="button" class="bg-[#172140] hover:bg-amber-500 text-white font-bold py-3 px-8 rounded transition duration-300">
-                                      Send Message
-                                  </button>
-                              </div>
-                          </form>
-                      </div>
+    <section class="py-16 sm:py-24 bg-white">
+      <div class="max-w-screen-xl mx-auto px-6">
+        <SectionIntroHeader
+          v-for="(intro, idx) in activeIntroSections"
+          :key="intro.id || idx"
+          :badge="intro.badge || 'Official Channels'"
+          :title="intro.title || 'Contact Us Today'"
+          :description="intro.description || 'We are ready to provide technical consultation, quote estimations, and scheduling for your engine assets.'"
+        />
 
-                      <div class="flex flex-col justify-center">
-                          <div class="flex items-center gap-3 mb-4">
-                              <span class="w-8 h-[2px] bg-[#1C284E]"></span>
-                              <span class="text-[#1C284E] font-bold text-sm md:text-lg tracking-widest uppercase">Get In Touch</span>
-                          </div>
-
-                          <h1 class="text-2xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-                              Contact Us Today
-                          </h1>
-                          
-                          <p class="text-gray-500 mb-10 leading-relaxed md:text-lg">
-                            You can send us message via form on the left or via the contact listed below.  
-                          </p>
-
-                          <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                              
-                              <div>
-                                  <h3 class="font-bold text-gray-900 md:text-2xl mb-4">Sales & Marketing</h3>
-                                  <ul class="space-y-3 md:text-lg text-gray-500">
-                                      <li class="flex items-center gap-3">
-                                          <svg class="w-5 h-5 text-[#1C284E] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                                          <span>support@domain.com</span>
-                                      </li>
-                                      <li class="flex items-center gap-3">
-                                          <svg class="w-5 h-5 text-[#1C284E] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                                          <span>(+62) 81 322 1467</span>
-                                      </li>
-                                      <li class="flex items-center gap-3">
-                                          <svg class="w-5 h-5 text-[#1C284E] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                          <span>09:00 AM - 22:00 PM</span>
-                                      </li>
-                                  </ul>
-                              </div>
-
-                              <div>
-                                  <h3 class="font-bold text-gray-900 md:text-2xl mb-4">Corporate Contact</h3>
-                                  <ul class="space-y-3 md:text-lg text-gray-500">
-                                      <li class="flex items-center gap-3">
-                                          <svg class="w-5 h-5 text-[#1C284E] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                                          <span>support@domain.com</span>
-                                      </li>
-                                      <li class="flex items-center gap-3">
-                                          <svg class="w-5 h-5 text-[#1C284E] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                                          <span>(+62) 81 322 1467</span>
-                                      </li>
-                                      <li class="flex items-center gap-3">
-                                          <svg class="w-5 h-5 text-[#1C284E] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                          <span>09:00 AM - 22:00 PM</span>
-                                      </li>
-                                  </ul>
-                              </div>
-
-                          </div>
-                      </div>
-                  </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center mb-4 text-amber-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
               </div>
+              <span class="text-xs uppercase tracking-wider font-bold text-amber-600 block mb-1">Office / Workshop</span>
+              <p class="text-xs text-slate-700 leading-relaxed">{{ content?.address || 'Jl. Pajajaran 154 (KP. IV) Bandung 40174 Indonesia' }}</p>
+            </div>
+          </div>
 
-              <div>
-                  <img 
-                      src="/public/static/img/contact/maps-ntp.png" 
-                      alt="Map Placeholder" 
-                      class="md:px-12 mx-auto w-full max-w-screen-xl h-96 object-cover object-center grayscale hover:grayscale-0 transition-all duration-500"
-                  >
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center mb-4 text-amber-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
               </div>
-            </section>
+              <span class="text-xs uppercase tracking-wider font-bold text-amber-600 block mb-1">Direct Phone</span>
+              <p class="text-xs font-semibold text-blue-950">{{ content?.phone || '+62 22 6015696 / +62 22 6014030' }}</p>
+              <span class="text-[11px] text-slate-500 block mt-1">{{ content?.hours || 'Mon - Fri: 08:00 - 17:00 WIB' }}</span>
+            </div>
+          </div>
 
-            <FooterSection/>
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center mb-4 text-amber-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <span class="text-xs uppercase tracking-wider font-bold text-amber-600 block mb-1">Email Inquiries</span>
+              <a :href="'mailto:' + (content?.email || 'marketing@ntp.id')" class="text-xs font-bold text-blue-950 hover:underline">
+                {{ content?.email || 'marketing@ntp.id' }}
+              </a>
+            </div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div>
+              <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center mb-4 text-amber-600">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                </svg>
+              </div>
+              <span class="text-xs uppercase tracking-wider font-bold text-amber-600 block mb-1">Website & Social</span>
+              <p class="text-xs font-semibold text-blue-950">www.ntp.id &bull; @ntpindonesia</p>
+            </div>
+          </div>
         </div>
-    </div>
+
+        <!-- Map -->
+        <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+          <AppImage
+            :src="content?.mapImage || '/static/img/contact/maps-ntp.png'"
+            alt="NTP Facility Location Map"
+            img-class="w-full h-96 object-cover object-center grayscale hover:grayscale-0 transition duration-500"
+            label="NTP Location Map"
+          />
+        </div>
+      </div>
+    </section>
+
+    <FooterSection />
+  </div>
 </template>
+
 <script setup lang="ts">
+import { computed } from 'vue';
+
 definePageMeta({
-    layout:'tw'
+  layout: 'tw'
+});
+
+useHead({
+  title: 'Corporate Contact'
+});
+
+const { data: content } = await useSiteContent('contactInfo');
+
+const activeIntroSections = computed(() => {
+  if (Array.isArray(content.value?.introSections) && content.value.introSections.length > 0) {
+    return content.value.introSections.filter((i: any) => i.isActive !== false);
+  }
+  return [
+    {
+      badge: content.value?.badge || 'Official Channels',
+      title: content.value?.title || 'Contact Us Today',
+      description: content.value?.description || content.value?.subtitle || 'We are ready to provide technical consultation, quote estimations, and scheduling for your engine assets.'
+    }
+  ];
 });
 </script>

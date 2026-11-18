@@ -2,6 +2,14 @@
 import path from 'path';
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  runtimeConfig: {
+    dbHost: process.env.DB_HOST || '127.0.0.1',
+    dbPort: Number(process.env.DB_PORT) || 3806,
+    dbUser: process.env.DB_USER || 'root',
+    dbPassword: process.env.DB_PASSWORD || 'root',
+    dbName: process.env.DB_NAME || 'portalpy',
+    sessionSecret: process.env.SESSION_SECRET || 'testest'
+  },
   modules:[
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
@@ -9,9 +17,16 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-        charset: 'utf-8',
-        viewport: 'width=device-width, initial-scale=1',
-      }
+      title: 'PT Nusantara Turbin dan Propulsi - Aero Engine & Industrial Turbines MRO',
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      link: [
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/static/favicon/favicon-32x32.png?v=2' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/static/favicon/favicon-16x16.png?v=2' },
+        { rel: 'shortcut icon', href: '/favicon.ico?v=2' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/static/favicon/apple-touch-icon.png?v=2' }
+      ]
+    }
   },
   primevue: {
     options: { unstyled: true },

@@ -1,0 +1,1787 @@
+{
+  "aeroEngine": {
+    "introText": "Maintaining Aero Engines Performances to its prime condition is not an easy feat. It requires a substantial level of experience and expertise to find the best conditions. With an experience of over 30 years in the MRO business backed up by certified experts, NTP can deliver your needs for high-quality care by prioritizing the best safety and performance on:",
+    "bullets": [
+      "Turbo Prop, Turbo Shaft, Turbo Jet / Fan",
+      "Component Repair",
+      "Accessories",
+      "Line maintenance"
+    ],
+    "amcHoneywell": {
+      "id": 1,
+      "title": "by Honeywell since 1986",
+      "engine": "Honeywell - TPE 331",
+      "series": "Series: TPE331 -2, -5, -10, -12, -12JR",
+      "aircraft": "Aircraft: Casa 212 Series, Dornier 228, Skyvan, Jet Commander",
+      "image": "/static/img/engine/tpe331.png",
+      "isActive": true
+    },
+    "amcGE": {
+      "id": 2,
+      "title": "by GE since 1988",
+      "engine": "GE - CT7",
+      "series": "Series: GE CT7- 5, 7A, -9C, 9B",
+      "aircraft": "Aircraft: CN-235 Series, SAAB 340",
+      "image": "/static/img/engine/ct7.png",
+      "isActive": true
+    },
+    "turboFanJet": [
+      {
+        "name": "Pratt & Whitney JT8D",
+        "aircraft": "Boeing 737-200",
+        "series": "Series: JT8D -9, -9A, -15, -15A, -17, -17A",
+        "image": "/static/img/engine/jt8d2.png",
+        "isActive": true
+      },
+      {
+        "name": "Rolls Royce TAY 650",
+        "aircraft": "Fokker 100",
+        "series": "Series: Tay 650-15",
+        "image": "/static/img/engine/tay6.png",
+        "isActive": true
+      }
+    ],
+    "turboPropShaft": [
+      {
+        "name": "Pratt & Whitney PT6A",
+        "aircraft": "Twin otter, Cessna Grand Caravan, Super Tucano, KT-1B",
+        "series": "Series: PT6A -21, -25, -27, -28, -34, -114, -140",
+        "image": "/static/img/engine/pt6a.png",
+        "isActive": true
+      },
+      {
+        "name": "Pratt & Whitney PT6T",
+        "aircraft": "Bell 412, Bell 212",
+        "series": "Series: PT6T -3, -3B, -3D, -3E, -3DF",
+        "image": "/static/img/engine/pt6t.png",
+        "isActive": true
+      },
+      {
+        "name": "Pratt & Whitney PW100 Series",
+        "aircraft": "ATR 42, ATR 72, Casa 295",
+        "series": "Series: PW124B, PW127E, -F, -J, -M",
+        "image": "/static/img/engine/pw100.png",
+        "isActive": true
+      },
+      {
+        "name": "Rolls Royce Dart7",
+        "aircraft": "Fokker 27",
+        "series": "Series: Dart 7-525 to -536",
+        "image": "/static/img/engine/dart7.png",
+        "isActive": true
+      },
+      {
+        "name": "Rolls Royce M250",
+        "aircraft": "Eurocopter Twinstar BO 105, Grob",
+        "series": "Series: Model 250 C20, C20B",
+        "image": "/static/img/engine/m250.png",
+        "isActive": true
+      },
+      {
+        "name": "Rolls Royce Allison T56",
+        "aircraft": "Hercules C130",
+        "series": "Series: T56-A-15/LFE",
+        "image": "/static/img/engine/tpe331.png",
+        "isActive": true
+      }
+    ],
+    "amcList": [
+      {
+        "id": 1,
+        "title": "by Honeywell since 1986",
+        "engine": "Honeywell - TPE 331",
+        "series": "Series: TPE331 -2, -5, -10, -12, -12JR",
+        "aircraft": "Aircraft: Casa 212 Series, Dornier 228, Skyvan, Jet Commander",
+        "image": "/static/img/engine/tpe331.png",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "title": "by GE since 1988",
+        "engine": "GE - CT7",
+        "series": "Series: GE CT7- 5, 7A, -9C, 9B",
+        "aircraft": "Aircraft: CN-235 Series, SAAB 340",
+        "image": "/static/img/engine/ct7.png",
+        "isActive": true
+      }
+    ],
+    "introSection": {
+      "title": "Maintenance, Repair and Overhaul of Aero Engine",
+      "description": "Maintaining Aero Engines Performances to its prime condition is not an easy feat. It requires a substantial level of experience and expertise to find the best conditions. With an experience of over 30 years in the MRO business backed up by certified experts, NTP can deliver your needs for high-quality care by prioritizing the best safety and performance on:",
+      "image": "/static/img/services/aero01.jpg",
+      "displayType": "list",
+      "items": [
+        "Turbo Prop, Turbo Shaft, Turbo Jet / Fan",
+        "Component Repair",
+        "Accessories",
+        "Line maintenance"
+      ]
+    },
+    "supportSection": {
+      "title": "Production Engine Assembly & Support Facilities",
+      "description": "To face ever-changing global competition, NTP provides dedicated services to support complete aircraft propulsion life-cycle requirements:",
+      "image": "/static/img/services/aero02.jpg",
+      "displayType": "card",
+      "items": [
+        "Workshop Repair & Balancing",
+        "On-Wing Maintenance",
+        "OEM Sparepart Sales",
+        "Engine Test Cell Validation"
+      ]
+    },
+    "sections": [
+      {
+        "id": "aero-intro",
+        "type": "split-editorial",
+        "isActive": true,
+        "title": "Maintenance, Repair and Overhaul of Aero Engine",
+        "badge": "Aviation Propulsion Mastery",
+        "description": "Maintaining Aero Engines Performances to its prime condition is not an easy feat. It requires a substantial level of experience and expertise to find the best conditions. With an experience of over 30 years in the MRO business backed up by certified experts, NTP can deliver your needs for high-quality care by prioritizing the best safety and performance on:",
+        "image": "/static/img/services/aero01.jpg",
+        "displayType": "list",
+        "rightbg": true,
+        "items": [
+          "Turbo Prop, Turbo Shaft, Turbo Jet / Fan",
+          "Component Repair",
+          "Accessories",
+          "Line maintenance"
+        ]
+      },
+      {
+        "id": "aero-amc",
+        "type": "amc-showcase",
+        "isActive": true,
+        "badge": "OEM Authorizations",
+        "title": "Authorized Maintenance Center (AMC)",
+        "description": "Certified aero engine maintenance, repair, and overhaul capabilities authorized directly by global engine manufacturers.",
+        "items": [
+          {
+            "id": 1,
+            "title": "by Honeywell since 1986",
+            "engine": "Honeywell - TPE 331",
+            "series": "Series: TPE331 -2, -5, -10, -12, -12JR",
+            "aircraft": "Aircraft: Casa 212 Series, Dornier 228, Skyvan, Jet Commander",
+            "image": "/static/img/engine/tpe331.png",
+            "isActive": true,
+            "badge": "Authorized Maintenance Center (AMC)"
+          },
+          {
+            "id": 2,
+            "title": "by GE since 1988",
+            "engine": "GE - CT7",
+            "series": "Series: GE CT7- 5, 7A, -9C, 9B",
+            "aircraft": "Aircraft: CN-235 Series, SAAB 340",
+            "image": "/static/img/engine/ct7.png",
+            "isActive": true,
+            "badge": "Authorized Maintenance Center (AMC)"
+          }
+        ]
+      },
+      {
+        "id": "aero-grouped-engines",
+        "type": "grouped-grid",
+        "isActive": true,
+        "badge": "",
+        "title": "",
+        "description": "",
+        "groups": [
+          {
+            "id": "grp-fan-jet",
+            "badge": "Turbo Fan / Jet",
+            "colSpan": 4,
+            "items": [
+              {
+                "name": "Pratt & Whitney JT8D",
+                "aircraft": "Boeing 737-200",
+                "series": "Series: JT8D -9, -9A, -15, -15A, -17, -17A",
+                "image": "/static/img/engine/jt8d2.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              },
+              {
+                "name": "Rolls Royce TAY 650",
+                "aircraft": "Fokker 100",
+                "series": "Series: Tay 650-15",
+                "image": "/static/img/engine/tay6.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              }
+            ],
+            "itemLabel": "Aircraft"
+          },
+          {
+            "id": "grp-prop-shaft",
+            "badge": "Turbo Prop / Shaft",
+            "colSpan": 8,
+            "items": [
+              {
+                "name": "Pratt & Whitney PT6A",
+                "aircraft": "Twin otter, Cessna Grand Caravan, Super Tucano, KT-1B",
+                "series": "Series: PT6A -21, -25, -27, -28, -34, -114, -140",
+                "image": "/static/img/engine/pt6a.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              },
+              {
+                "name": "Pratt & Whitney PT6T",
+                "aircraft": "Bell 412, Bell 212",
+                "series": "Series: PT6T -3, -3B, -3D, -3E, -3DF",
+                "image": "/static/img/engine/pt6t.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              },
+              {
+                "name": "Pratt & Whitney PW100 Series",
+                "aircraft": "ATR 42, ATR 72, Casa 295",
+                "series": "Series: PW124B, PW127E, -F, -J, -M",
+                "image": "/static/img/engine/pw100.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              },
+              {
+                "name": "Rolls Royce Dart7",
+                "aircraft": "Fokker 27",
+                "series": "Series: Dart 7-525 to -536",
+                "image": "/static/img/engine/dart7.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              },
+              {
+                "name": "Rolls Royce M250",
+                "aircraft": "Eurocopter Twinstar BO 105, Grob",
+                "series": "Series: Model 250 C20, C20B",
+                "image": "/static/img/engine/m250.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              },
+              {
+                "name": "Rolls Royce Allison T56",
+                "aircraft": "Hercules C130",
+                "series": "Series: T56-A-15/LFE",
+                "image": "/static/img/engine/tpe331.png",
+                "isActive": true,
+                "aircraftLabel": "Aircraft"
+              }
+            ],
+            "itemLabel": "Aircraft"
+          }
+        ]
+      },
+      {
+        "id": "aero-support",
+        "type": "split-editorial",
+        "isActive": true,
+        "badge": "Propulsion Life-Cycle",
+        "title": "Production Engine Assembly & Support Facilities",
+        "description": "To face ever-changing global competition, NTP provides dedicated services to support complete aircraft propulsion life-cycle requirements:",
+        "image": "/static/img/services/aero02.jpg",
+        "displayType": "card",
+        "rightbg": false,
+        "items": [
+          "Workshop Repair & Balancing",
+          "On-Wing Maintenance",
+          "OEM Sparepart Sales",
+          "Engine Test Cell Validation"
+        ]
+      }
+    ]
+  },
+  "industrial": {
+    "quickCategories": [
+      {
+        "id": "coating",
+        "title": "Coating",
+        "image": "/static/img/services/coating01.jpg"
+      },
+      {
+        "id": "gas-turbine",
+        "title": "Gas Turbine",
+        "image": "/static/img/services/industrial01.jpg"
+      },
+      {
+        "id": "steam-turbine",
+        "title": "Steam Turbine",
+        "image": "/static/img/services/industrial02.jpg"
+      },
+      {
+        "id": "centrifugal-compressor",
+        "title": "Centrifugal Compressor",
+        "image": "/static/img/services/industrial01.jpg"
+      },
+      {
+        "id": "field-services",
+        "title": "Field Services",
+        "image": "/static/img/services/aero01.jpg"
+      },
+      {
+        "id": "turbo-charger",
+        "title": "Turbo Charger",
+        "image": "/static/img/services/industrial02.jpg"
+      },
+      {
+        "id": "centrifugal-pump",
+        "title": "Centrifugal Pump",
+        "image": "/static/img/services/pump01.jpg"
+      },
+      {
+        "id": "repair-fabricate",
+        "title": "Repair / Fabricate Parts",
+        "image": "/static/img/services/facilities.jpg"
+      }
+    ],
+    "solarTurbines": {
+      "title": "Solar Turbines A Caterpillar Company",
+      "description": "NTP has been appointed as AMC (Authorized Maintenance Center) Solar Turbine since 1987 and currently NTP has the best capability in the Asia Pacific up to level 4 (overhaul) to provide precision maintenance quality for our world-class customer.",
+      "engines": [
+        {
+          "name": "Solar Turbine Saturn 10",
+          "type": "Saturn one Shaft, Saturn Two Shaft",
+          "capability": "Capability - Level 4 (Overhaul, Repair, Engine Exchange)",
+          "image": "/static/img/engine/placeholder-saturn10.png"
+        },
+        {
+          "name": "Solar Turbine Centaur 40",
+          "type": "Centaur 40 Single Shaft, Centaur 40 Two Shaft",
+          "capability": "Capability - Level 4 (Overhaul, Repair, Sparepart Maintenance)",
+          "image": "/static/img/engine/placeholder-centaur40.png"
+        },
+        {
+          "name": "Solar Turbine Centaur 50",
+          "type": "Centaur 50 Single Shaft",
+          "capability": "Capability - Level 3 (Overhaul, Engine Exchange)",
+          "image": "/static/img/engine/placeholder-centaur50.png"
+        },
+        {
+          "name": "Solar Turbine Taurus 60",
+          "type": "Taurus 60 Single Shaft",
+          "capability": "Capability - Level 3 (Overhaul, Engine Exchange)",
+          "image": "/static/img/engine/placeholder-taurus60.png"
+        }
+      ]
+    },
+    "geSeries": {
+      "title": "General Electric LM & TM Series",
+      "engines": [
+        {
+          "name": "GE LM2500 Series",
+          "capability": "Capability: Overhaul, Repair, Field Service",
+          "image": "/static/img/engine/placeholder-lm2500.png"
+        },
+        {
+          "name": "GE TM2500 Series",
+          "capability": "Capability: Overhaul, Repair, Field Service",
+          "image": "/static/img/engine/placeholder-tm2500.png"
+        },
+        {
+          "name": "GE LM6000 Series",
+          "capability": "Capability: Overhaul, Repair, Field Service",
+          "image": "/static/img/engine/placeholder-lm6000.png"
+        },
+        {
+          "name": "Turbomeca Astazou (GT Astazou IV M1)",
+          "capability": "Capability: Overhaul, Repair, Field Service",
+          "image": "/static/img/engine/placeholder-astazou.png"
+        },
+        {
+          "name": "Pratt & Whitney FT8 Engine",
+          "capability": "Capability: Overhaul, Repair, Field Service",
+          "image": "/static/img/engine/placeholder-ft8.png"
+        }
+      ]
+    },
+    "steamTurbineTimeline": {
+      "title": "Industrial Steam Turbine Manufacturing Capabilities",
+      "steps": [
+        {
+          "hp": "450 HP",
+          "title": "STEAM TURBINE 450 HP",
+          "desc": "Single Stage Back Pressure - PG Asem Bagus"
+        },
+        {
+          "hp": "2 MW",
+          "title": "STEAM TURBINE 2 MW",
+          "desc": "Multi Stage Back Pressure - PG Asem Bagus"
+        },
+        {
+          "hp": "4 MW",
+          "title": "STEAM TURBINE 4 MW",
+          "desc": "Multi Stage Back Pressure - BPPT"
+        },
+        {
+          "hp": "3 MW",
+          "title": "STEAM TURBINE 3 MW",
+          "desc": "Multistage Condensing Geothermal - PLTP Kamojang"
+        }
+      ],
+      "note": "With the experience and expertise of our engineers, we can reverse engineer and manufacture steam turbines up to 4MW, one of the turbines we manufactured is still operating and running well at Kamojang Geothermal Power Plant."
+    },
+    "coatingCapabilities": {
+      "title": "Industrial Coating Capabilities",
+      "sermetel": "SermeTel Coating is used on any component for corrosion and erosion protection, tight tolerances. Can be applied to dimensionally critical surfaces, precision coating thickness as thin as 0.3 mils.",
+      "sermalon": "SermaLon Coating is coating systems developed to provide anti-fouling and corrosion protection to compressor components and industrial gas turbine components exposed to wet chlorides, as well as steam turbine components.",
+      "partner": "PRAXAIR"
+    },
+    "sections": [
+      {
+        "id": "ind-intro",
+        "type": "split-editorial",
+        "isActive": true,
+        "badge": "Precision & Heavy Rotating Equipment",
+        "title": "Maintenance, Repair & Overhaul of Industrial Turbines",
+        "description": "Maintaining industrial turbines and rotating equipment to prime operational readiness requires world-class engineering mastery. NTP provides high-precision lifecycle support, advanced field services, dynamic balancing, and certified component overhauls for oil & gas, petrochemical, and power generation sectors worldwide.",
+        "image": "/static/img/services/industrial01.jpg",
+        "displayType": "card",
+        "rightbg": true,
+        "items": [
+          "Coating",
+          "Gas Turbine",
+          "Steam Turbine",
+          "Centrifugal Compressor",
+          "Field Service",
+          "Turbo Charger",
+          "Centrifugal Pump",
+          "Repair / Fabricate Parts"
+        ]
+      },
+      {
+        "id": "ind-amc-solar",
+        "type": "amc-showcase",
+        "isActive": true,
+        "badge": "Solar Turbines  - A Caterpillar Company",
+        "title": "Authorized Maintenance Center (AMC)",
+        "description": "NTP has been appointed as AMC (Authorized Maintenance Center) Solar Turbine since 1987 and currently NTP has the best capability in the Asia Pacific up to level 4 (overhaul) to provide precision maintenance quality for our world-class customer.",
+        "items": [
+          {
+            "isActive": true,
+            "badge": "Solar Turbines AMC",
+            "title": "Level 4 Overhaul Since 1987",
+            "engine": "Solar Turbine Saturn 10",
+            "series": "Saturn one Shaft, Saturn Two Shaft",
+            "capability": "Capability - Level 4 (Overhaul, Repair, Engine Exchange)",
+            "image": "/static/img/engine/placeholder-saturn10.png"
+          },
+          {
+            "isActive": true,
+            "badge": "Solar Turbines AMC",
+            "title": "Level 4 Overhaul Since 1987",
+            "engine": "Solar Turbine Centaur 40",
+            "series": "Centaur 40 Single Shaft, Centaur 40 Two Shaft",
+            "capability": "Capability - Level 4 (Overhaul, Repair, Sparepart Maintenance)",
+            "image": "/static/img/engine/placeholder-centaur40.png"
+          },
+          {
+            "isActive": true,
+            "badge": "Solar Turbines AMC",
+            "title": "Level 4 Overhaul Since 1987",
+            "engine": "Solar Turbine Centaur 50",
+            "series": "Centaur 50 Single Shaft",
+            "capability": "Capability - Level 3 (Overhaul, Engine Exchange)",
+            "image": "/static/img/engine/placeholder-centaur50.png"
+          },
+          {
+            "isActive": true,
+            "badge": "Solar Turbines AMC",
+            "title": "Level 4 Overhaul Since 1987",
+            "engine": "Solar Turbine Taurus 60",
+            "series": "Taurus 60 Single Shaft",
+            "capability": "Capability - Level 3 (Overhaul, Engine Exchange)",
+            "image": "/static/img/engine/placeholder-taurus60.png"
+          }
+        ]
+      },
+      {
+        "id": "ind-gas-turbines",
+        "type": "grouped-grid",
+        "isActive": true,
+        "badge": "",
+        "title": "",
+        "description": "",
+        "groups": [
+          {
+            "id": "grp-ge-series",
+            "badge": "General Electric LM & TM Series",
+            "colSpan": 8,
+            "items": [
+              {
+                "isActive": true,
+                "name": "GE LM2500 Series",
+                "aircraft": "Industrial Gas Turbine",
+                "series": "Capability: Overhaul, Repair, Field Service",
+                "image": "/static/img/engine/placeholder-lm2500.png"
+              },
+              {
+                "isActive": true,
+                "name": "GE TM2500 Series",
+                "aircraft": "Industrial Gas Turbine",
+                "series": "Capability: Overhaul, Repair, Field Service",
+                "image": "/static/img/engine/placeholder-tm2500.png"
+              },
+              {
+                "isActive": true,
+                "name": "GE LM6000 Series",
+                "aircraft": "Industrial Gas Turbine",
+                "series": "Capability: Overhaul, Repair, Field Service",
+                "image": "/static/img/engine/placeholder-lm6000.png"
+              }
+            ]
+          },
+          {
+            "id": "grp-heavy-turbines",
+            "badge": "Industrial Heavy Turbines",
+            "colSpan": 4,
+            "items": [
+              {
+                "isActive": true,
+                "name": "Turbomeca Astazou (GT Astazou IV M1)",
+                "aircraft": "Industrial Power Generation",
+                "series": "Capability: Overhaul, Repair, Field Service",
+                "image": "/static/img/engine/placeholder-astazou.png"
+              },
+              {
+                "isActive": true,
+                "name": "Pratt & Whitney FT8 Engine",
+                "aircraft": "Industrial Power Generation",
+                "series": "Capability: Overhaul, Repair, Field Service",
+                "image": "/static/img/engine/placeholder-ft8.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ind-steam-timeline",
+        "type": "step-timeline",
+        "isActive": true,
+        "badge": "Engineering & Reverse Manufacturing",
+        "title": "Industrial Steam Turbine Manufacturing Capabilities",
+        "description": "Precision reverse engineering and manufacturing capabilities from single-stage to multi-stage turbines up to 4 MW.",
+        "steps": [
+          {
+            "hp": "450 HP",
+            "title": "STEAM TURBINE 450 HP",
+            "desc": "Single Stage Back Pressure - PG Asem Bagus"
+          },
+          {
+            "hp": "2 MW",
+            "title": "STEAM TURBINE 2 MW",
+            "desc": "Multi Stage Back Pressure - PG Asem Bagus"
+          },
+          {
+            "hp": "4 MW",
+            "title": "STEAM TURBINE 4 MW",
+            "desc": "Multi Stage Back Pressure - BPPT"
+          },
+          {
+            "hp": "3 MW",
+            "title": "STEAM TURBINE 3 MW",
+            "desc": "Multistage Condensing Geothermal - PLTP Kamojang"
+          }
+        ],
+        "note": "With the experience and expertise of our engineers, we can reverse engineer and manufacture steam turbines up to 4MW, one of the turbines we manufactured is still operating and running well at Kamojang Geothermal Power Plant."
+      },
+      {
+        "id": "ind-coating",
+        "type": "feature-cards",
+        "isActive": true,
+        "badge": "Surface Engineering",
+        "partner": "Partner: PRAXAIR",
+        "title": "Industrial Coating Capabilities",
+        "description": "Specialized surface coating technologies developed in partnership with PRAXAIR for extreme chemical and thermal protection.",
+        "cards": [
+          {
+            "badge": "High Precision Protection",
+            "title": "SermeTel Coating",
+            "description": "SermeTel Coating is used on any component for corrosion and erosion protection, tight tolerances. Can be applied to dimensionally critical surfaces, precision coating thickness as thin as 0.3 mils.",
+            "image": "/static/img/services/coating01.jpg"
+          },
+          {
+            "badge": "Anti-Fouling System",
+            "title": "SermaLon Coating",
+            "description": "SermaLon Coating is coating systems developed to provide anti-fouling and corrosion protection to compressor components and industrial gas turbine components exposed to wet chlorides, as well as steam turbine components.",
+            "image": "/static/img/services/industrial02.jpg"
+          }
+        ]
+      },
+      {
+        "id": "ind-quick-categories",
+        "type": "quick-categories",
+        "isActive": false,
+        "badge": "Workshop Capabilities",
+        "title": "Core Industrial Capabilities Overview",
+        "description": "Comprehensive engineering disciplines and mechanical solutions provided by NTP Bandung facility.",
+        "items": [
+          {
+            "id": "coating",
+            "title": "Coating",
+            "image": "/static/img/services/coating01.jpg"
+          },
+          {
+            "id": "gas-turbine",
+            "title": "Gas Turbine",
+            "image": "/static/img/services/industrial01.jpg"
+          },
+          {
+            "id": "steam-turbine",
+            "title": "Steam Turbine",
+            "image": "/static/img/services/industrial02.jpg"
+          },
+          {
+            "id": "centrifugal-compressor",
+            "title": "Centrifugal Compressor",
+            "image": "/static/img/services/industrial01.jpg"
+          },
+          {
+            "id": "field-services",
+            "title": "Field Services",
+            "image": "/static/img/services/aero01.jpg"
+          },
+          {
+            "id": "turbo-charger",
+            "title": "Turbo Charger",
+            "image": "/static/img/services/industrial02.jpg"
+          },
+          {
+            "id": "centrifugal-pump",
+            "title": "Centrifugal Pump",
+            "image": "/static/img/services/pump01.jpg"
+          },
+          {
+            "id": "repair-fabricate",
+            "title": "Repair / Fabricate Parts",
+            "image": "/static/img/services/facilities.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "fieldServices": {
+    "title": "Industrial Turbine Services: Field Services Capabilities",
+    "description": "NTP provides responsive on-site engineering services, field overhauls, advanced inspections, and non-destructive examination directly at client operating sites worldwide.",
+    "items": [
+      {
+        "id": "fs-1",
+        "title": "On Site Overhaul",
+        "tag": "Certified NTP Field Team",
+        "description": "Comprehensive mechanical overhaul conducted directly at customer power plant or operating field.",
+        "image": "/static/img/services/industrial01.jpg",
+        "isActive": true
+      },
+      {
+        "id": "fs-2",
+        "title": "On Site Coating",
+        "tag": "Certified NTP Field Team",
+        "description": "Advanced thermal and protective coating applications deployed directly on operational components.",
+        "image": "/static/img/services/coating01.jpg",
+        "isActive": true
+      },
+      {
+        "id": "fs-3",
+        "title": "On Site Inspection",
+        "tag": "Certified NTP Field Team",
+        "description": "Critical dimensional and operational integrity verification performed by certified field specialists.",
+        "image": "/static/img/services/industrial02.jpg",
+        "isActive": true
+      },
+      {
+        "id": "fs-4",
+        "title": "Borescope Inspection",
+        "tag": "Certified NTP Field Team",
+        "description": "High-resolution video borescope diagnostics for turbine blades, nozzles and combustion chambers without teardown.",
+        "image": "/static/img/services/aero01.jpg",
+        "isActive": true
+      },
+      {
+        "id": "fs-5",
+        "title": "On Site NDI",
+        "tag": "Certified NTP Field Team",
+        "description": "Non-Destructive Inspection (NDI) utilizing magnetic particle, dye penetrant, and eddy current methods.",
+        "image": "/static/img/services/facilities.jpg",
+        "isActive": true
+      }
+    ],
+    "headerTitle": "FIELD SERVICES",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Global On-Site Support"
+  },
+  "training": {
+    "headerTitle": "TRAINING SERVICES",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Workforce & Technical Mastery",
+    "title": "Aero Engine & Industrial Turbomachinery Training Programs",
+    "description": "Empowering aerospace and heavy industry engineers with hands-on technical competencies, maintenance certifications, and advanced diagnostic training conducted by certified NTP instructors.",
+    "items": [
+      {
+        "id": "training-1",
+        "title": "Gas Turbine Operation & Maintenance",
+        "tag": "Certified MRO Training",
+        "description": "Comprehensive practical program covering gas turbine mechanical assemblies, combustion systems, preventive maintenance protocols, and operational safety.",
+        "image": "/static/img/services/industrial01.jpg",
+        "isActive": true
+      },
+      {
+        "id": "training-2",
+        "title": "Aero Engine Line & Base Maintenance",
+        "tag": "Aviation Engineering",
+        "description": "Specialized coursework on turboprop and turboshaft propulsion systems, line replaceable units (LRUs), borescope verification, and airworthiness conformity.",
+        "image": "/static/img/services/aero01.jpg",
+        "isActive": true
+      },
+      {
+        "id": "training-3",
+        "title": "Non-Destructive Inspection & Testing (NDI)",
+        "tag": "ASNT / DGCA Compliant",
+        "description": "Hands-on certification in Liquid Penetrant Testing (PT), Magnetic Particle Testing (MT), and Eddy Current Testing (ET) for critical aerospace structures.",
+        "image": "/static/img/services/facilities.jpg",
+        "isActive": true
+      },
+      {
+        "id": "training-4",
+        "title": "Dynamic Balancing & Vibration Analysis",
+        "tag": "Condition Monitoring",
+        "description": "Advanced diagnostic training for rotating turbomachinery vibration spectrum interpretation, on-site single/dual plane balancing, and resonance mitigation.",
+        "image": "/static/img/services/industrial02.jpg",
+        "isActive": true
+      },
+      {
+        "id": "training-5",
+        "title": "Protective Coating & Surface Treatment",
+        "tag": "Specialized Metallurgical",
+        "description": "Instruction in surface preparation, Sermetel coating applications, curing procedures, and corrosion prevention for gas turbine components.",
+        "image": "/static/img/services/coating01.jpg",
+        "isActive": true
+      }
+    ]
+  },
+  "aboutUs": {
+    "commitmentTitle": "PT Nusantara Turbin dan Propulsi Commitment",
+    "tagline": "Excellence and Competitive",
+    "quote": "Delivering Excellence, Building Competitiveness, Sustaining Trust.",
+    "excellence": {
+      "title": "Excellence",
+      "text": "We uphold the highest standards of quality, professionalism, safety, and reliability in every task to deliver service excellence to our customers."
+    },
+    "competitive": {
+      "title": "Competitive",
+      "text": "We build competitiveness through enhancing capabilities, competencies, efficiency, innovation, and strategic partnerships, enabling PT NTP to deliver competitive and value-added MRO solutions."
+    },
+    "footerNote": "PT NTP is committed to delivering the highest quality of service while strengthening competitiveness through people development, capability enhancement, innovation, and strategic collaboration.",
+    "sections": [
+      {
+        "id": "about-journey",
+        "type": "split-story",
+        "isActive": true,
+        "badge": "History & Heritage",
+        "title": "OUR JOURNEY",
+        "bgTheme": "white",
+        "paragraphs": [
+          "Established on June 23, 1998, which formerly had been the UMC-IPTN division founded on August 23, 1986. NTP Head Office & Workshop is located at Jl. Pajajaran 154 (KP. IV) Bandung 40174 INDONESIA, adjacent to Husein Sastranegara International Airport.",
+          "PT Nusantara Turbin dan Propulsi (NTP), as a globally recognized company in the maintenance of aero engines and industrial rotating equipment, operates an integrated 45,000 m² facility empowered by over 300 highly qualified and certified professionals."
+        ]
+      },
+      {
+        "id": "about-overview",
+        "type": "split-story",
+        "isActive": true,
+        "badge": "Core Identity",
+        "title": "CORPORATE OVERVIEW",
+        "bgTheme": "dark-image",
+        "bgImage": "/static/img/bg-alt-eng.jpg",
+        "paragraphs": [
+          "PT Nusantara Turbin dan Propulsi (NTP) is a trusted excellence center leading Southeast Asia in engineering, maintenance, repair and overhaul of gas turbines, steam turbines, and rotating machinery.",
+          "From its founding as the Universal Maintenance Center (UMC) of PT IPTN, NTP has continuously expanded its international certifications to serve defense, commercial aviation, and heavy industrial clients worldwide."
+        ]
+      },
+      {
+        "id": "about-values",
+        "type": "core-values",
+        "isActive": true,
+        "badge": "Core Values & Vision",
+        "title": "EXCELLENCE AND COMPETITIVE",
+        "tagline": "Excellence and Competitive",
+        "quote": "Delivering Excellence, Building Competitiveness, Sustaining Trust.",
+        "bgTheme": "white",
+        "pillars": [
+          {
+            "title": "Excellence",
+            "description": "We uphold the highest standards of quality, professionalism, safety, and reliability in every task to deliver service excellence to our customers."
+          },
+          {
+            "title": "Competitive",
+            "description": "We build competitiveness through enhancing capabilities, competencies, efficiency, innovation, and strategic partnerships, enabling PT NTP to deliver competitive and value-added MRO solutions."
+          }
+        ],
+        "footerNote": "PT NTP is committed to delivering the highest quality of service while strengthening competitiveness through people development, capability enhancement, innovation, and strategic collaboration."
+      }
+    ],
+    "headerTitle": "ABOUT US",
+    "headerBg": "/static/img/ntp-bg-old.jpg"
+  },
+  "customers": {
+    "title": "NTP Aero Customer Expansion",
+    "description": "Our customers are large international and domestic aviation or military aviation entities demanding total compliance with authority codes and optimal operational execution.",
+    "marketPresenceBadge": "Market Presence",
+    "marketPresenceTitle": "International MRO Partner Network",
+    "marketPresenceDescription": "PT NTP delivers high-quality care and reliability for aviation defense and commercial fleets worldwide.",
+    "mapSectionBg": "/static/img/bg-alt-eng.jpg",
+    "mapImage": "/static/img/uploads/1794895875422-427632424_272c05e5-726d-4970-89a9-ff51546e12c4.jpg",
+    "mapImageFit": "cover",
+    "stats": {
+      "countries": "30++",
+      "countriesLabel": "Customer Countries",
+      "exportShare": "59%",
+      "exportShareLabel": "Export Customer Share"
+    },
+    "existingCustomers": [
+      {
+        "name": "TNI AU",
+        "country": "Indonesia",
+        "type": "Military",
+        "logo": "/static/img/certification/tniau.jpg"
+      },
+      {
+        "name": "TNI AD",
+        "country": "Indonesia",
+        "type": "Military",
+        "logo": "/static/img/customer/military-tniad.png"
+      },
+      {
+        "name": "TNI AL",
+        "country": "Indonesia",
+        "type": "Military",
+        "logo": "/static/img/customer/military-tnial.png"
+      },
+      {
+        "name": "Kepolisian Negara Republik Indonesia",
+        "country": "Indonesia",
+        "type": "Government",
+        "logo": "/static/img/customer/polri.png"
+      },
+      {
+        "name": "Tentara Udara Diraja Malaysia",
+        "country": "Malaysia",
+        "type": "Military",
+        "logo": "/static/img/customer/tudm.png"
+      },
+      {
+        "name": "Royal Thai Air Force",
+        "country": "Thailand",
+        "type": "Military",
+        "logo": "/static/img/customer/rtaf.png"
+      },
+      {
+        "name": "Royal Thai Navy",
+        "country": "Thailand",
+        "type": "Military",
+        "logo": "/static/img/customer/rtn.png"
+      },
+      {
+        "name": "Republic of Korea Air Force",
+        "country": "South Korea",
+        "type": "Military",
+        "logo": "/static/img/customer/rokaf.png"
+      },
+      {
+        "name": "Regional Express (rex)",
+        "country": "Australia",
+        "type": "Commercial",
+        "logo": "/static/img/customer/rex.png"
+      },
+      {
+        "name": "Korean Coast Guard",
+        "country": "South Korea",
+        "type": "Government",
+        "logo": "/static/img/customer/kcg.png"
+      }
+    ],
+    "newCustomers": [
+      {
+        "name": "Royal Oman Police",
+        "country": "Oman",
+        "type": "Government",
+        "logo": "/static/img/customer/oman-police.png"
+      },
+      {
+        "name": "Indian Air Force",
+        "country": "India",
+        "type": "Military",
+        "logo": "/static/img/customer/iaf.png"
+      },
+      {
+        "name": "Vietnam Air Force",
+        "country": "Vietnam",
+        "type": "Military",
+        "logo": "/static/img/customer/vnaf.png"
+      },
+      {
+        "name": "Seagle Aerospace",
+        "country": "International",
+        "type": "Commercial",
+        "logo": "/static/img/customer/seagle.png"
+      },
+      {
+        "name": "Ammroc",
+        "country": "UAE",
+        "type": "Military/Commercial",
+        "logo": "/static/img/customer/ammroc.png"
+      },
+      {
+        "name": "ASG Nederland",
+        "country": "Netherlands",
+        "type": "Commercial",
+        "logo": "/static/img/customer/asg.png"
+      }
+    ],
+    "headerTitle": "OUR CUSTOMERS",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Global Reach",
+    "sections": [
+      {
+        "id": "cust-sec-existing",
+        "isActive": true,
+        "title": "PT NTP Existing Aero Engine Services Customers",
+        "name": "PT NTP Existing Aero Engine Services Customers",
+        "badge": "Defense & Commercial Fleet",
+        "description": "Trusted long-term partnerships in defense forces and commercial fleets",
+        "items": [
+          {
+            "id": "c1",
+            "name": "TNI AU",
+            "country": "Indonesia",
+            "description": "Indonesia",
+            "logo": "/static/img/certification/tniau.jpg",
+            "image": "/static/img/certification/tniau.jpg",
+            "isActive": true
+          },
+          {
+            "id": "c2",
+            "name": "TNI AD",
+            "country": "Indonesia",
+            "description": "Indonesia",
+            "logo": "/static/img/customer/military-tniad.png",
+            "image": "/static/img/customer/military-tniad.png",
+            "isActive": true
+          },
+          {
+            "id": "c3",
+            "name": "TNI AL",
+            "country": "Indonesia",
+            "description": "Indonesia",
+            "logo": "/static/img/customer/military-tnial.png",
+            "image": "/static/img/customer/military-tnial.png",
+            "isActive": true
+          },
+          {
+            "id": "c4",
+            "name": "Kepolisian Negara Republik Indonesia",
+            "country": "Indonesia",
+            "description": "Indonesia",
+            "logo": "/static/img/customer/polri.png",
+            "image": "/static/img/customer/polri.png",
+            "isActive": true
+          },
+          {
+            "id": "c5",
+            "name": "Tentara Udara Diraja Malaysia",
+            "country": "Malaysia",
+            "description": "Malaysia",
+            "logo": "/static/img/customer/tudm.png",
+            "image": "/static/img/customer/tudm.png",
+            "isActive": true
+          },
+          {
+            "id": "c6",
+            "name": "Royal Thai Air Force",
+            "country": "Thailand",
+            "description": "Thailand",
+            "logo": "/static/img/customer/rtaf.png",
+            "image": "/static/img/customer/rtaf.png",
+            "isActive": true
+          },
+          {
+            "id": "c7",
+            "name": "Royal Thai Navy",
+            "country": "Thailand",
+            "description": "Thailand",
+            "logo": "/static/img/customer/rtn.png",
+            "image": "/static/img/customer/rtn.png",
+            "isActive": true
+          },
+          {
+            "id": "c8",
+            "name": "Republic of Korea Air Force",
+            "country": "South Korea",
+            "description": "South Korea",
+            "logo": "/static/img/customer/rokaf.png",
+            "image": "/static/img/customer/rokaf.png",
+            "isActive": true
+          },
+          {
+            "id": "c9",
+            "name": "Regional Express (rex)",
+            "country": "Australia",
+            "description": "Australia",
+            "logo": "/static/img/customer/rex.png",
+            "image": "/static/img/customer/rex.png",
+            "isActive": true
+          },
+          {
+            "id": "c10",
+            "name": "Korean Coast Guard",
+            "country": "South Korea",
+            "description": "South Korea",
+            "logo": "/static/img/customer/kcg.png",
+            "image": "/static/img/customer/kcg.png",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cust-sec-new",
+        "isActive": true,
+        "title": "PT NTP New Aero Turbine Services Customers",
+        "name": "PT NTP New Aero Turbine Services Customers",
+        "badge": "Expanding Footprint",
+        "description": "Expanding international footprint in global defense and aerospace",
+        "items": [
+          {
+            "id": "cn1",
+            "name": "Royal Oman Police",
+            "country": "Oman",
+            "description": "Oman",
+            "logo": "/static/img/customer/oman-police.png",
+            "image": "/static/img/customer/oman-police.png",
+            "isActive": true
+          },
+          {
+            "id": "cn2",
+            "name": "Indian Air Force",
+            "country": "India",
+            "description": "India",
+            "logo": "/static/img/customer/iaf.png",
+            "image": "/static/img/customer/iaf.png",
+            "isActive": true
+          },
+          {
+            "id": "cn3",
+            "name": "Vietnam Air Force",
+            "country": "Vietnam",
+            "description": "Vietnam",
+            "logo": "/static/img/customer/vnaf.png",
+            "image": "/static/img/customer/vnaf.png",
+            "isActive": true
+          },
+          {
+            "id": "cn4",
+            "name": "Seagle Aerospace",
+            "country": "International",
+            "description": "International",
+            "logo": "/static/img/customer/seagle.png",
+            "image": "/static/img/customer/seagle.png",
+            "isActive": true
+          },
+          {
+            "id": "cn5",
+            "name": "Ammroc",
+            "country": "UAE",
+            "description": "UAE",
+            "logo": "/static/img/customer/ammroc.png",
+            "image": "/static/img/customer/ammroc.png",
+            "isActive": true
+          },
+          {
+            "id": "cn6",
+            "name": "ASG Nederland",
+            "country": "Netherlands",
+            "description": "Netherlands",
+            "logo": "/static/img/customer/asg.png",
+            "image": "/static/img/customer/asg.png",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cust-sec-industrial",
+        "isActive": true,
+        "title": "Industrial & Power Generation Customers",
+        "name": "Industrial & Power Generation Customers",
+        "badge": "Energy & Power Utilities",
+        "description": "Trusted by leading industrial operators and energy utilities",
+        "items": [
+          {
+            "id": "ci1",
+            "name": "ConocoPhillips",
+            "description": "Oil & Gas Operator",
+            "logo": "/static/img/customer/conoco.png",
+            "image": "/static/img/customer/conoco.png",
+            "isActive": true
+          },
+          {
+            "id": "ci2",
+            "name": "GE Transportation",
+            "description": "Locomotive & Industrial Power",
+            "logo": "/static/img/customer/ge.png",
+            "image": "/static/img/customer/ge.png",
+            "isActive": true
+          },
+          {
+            "id": "ci3",
+            "name": "Gulf",
+            "description": "Energy & Lubricants",
+            "logo": "/static/img/customer/gulf.png",
+            "image": "/static/img/customer/gulf.png",
+            "isActive": true
+          },
+          {
+            "id": "ci4",
+            "name": "Indonesia Power",
+            "description": "State Electricity Generation",
+            "logo": "/static/img/customer/indonesia-power.png",
+            "image": "/static/img/customer/indonesia-power.png",
+            "isActive": true
+          },
+          {
+            "id": "ci5",
+            "name": "Chevron",
+            "description": "Geothermal & Oil Operations",
+            "logo": "/static/img/customer/chevron.png",
+            "image": "/static/img/customer/chevron.png",
+            "isActive": true
+          },
+          {
+            "id": "ci6",
+            "name": "PTPN",
+            "description": "Agro-industrial Turbine",
+            "logo": "/static/img/customer/ptpn.png",
+            "image": "/static/img/customer/ptpn.png",
+            "isActive": true
+          },
+          {
+            "id": "ci7",
+            "name": "Pupuk Indonesia",
+            "description": "Petrochemical & Fertilizer",
+            "logo": "/static/img/customer/pupuk-indonesia.png",
+            "image": "/static/img/customer/pupuk-indonesia.png",
+            "isActive": true
+          },
+          {
+            "id": "ci8",
+            "name": "Solar Turbines",
+            "description": "Caterpillar Partner",
+            "logo": "/static/img/customer/solar-turbines.png",
+            "image": "/static/img/customer/solar-turbines.png",
+            "isActive": true
+          },
+          {
+            "id": "ci9",
+            "name": "GMF AeroAsia",
+            "description": "Aviation Maintenance",
+            "logo": "/static/img/customer/gmf.png",
+            "image": "/static/img/customer/gmf.png",
+            "isActive": true
+          },
+          {
+            "id": "ci10",
+            "name": "ATS",
+            "description": "Turbine Specialist",
+            "logo": "/static/img/customer/ats.png",
+            "image": "/static/img/customer/ats.png",
+            "isActive": true
+          }
+        ]
+      }
+    ],
+    "introSections": [
+      {
+        "id": "intro-1794895858501",
+        "badge": "Global Reach",
+        "title": "NTP Aero Customer Expansion",
+        "description": "Our customers are large international and domestic aviation or military aviation entities demanding total compliance with authority codes and optimal operational execution.",
+        "isActive": true
+      }
+    ]
+  },
+  "certificate": {
+    "title": "Our Certifications",
+    "subtitle": "Internationally Recognized Quality and Safety Authorizations",
+    "groups": [
+      {
+        "id": "cert-sec-1",
+        "name": "Airworthiness Authority",
+        "title": "Airworthiness Authority",
+        "badge": "Airworthiness Approvals",
+        "description": "Certified by civil and military aviation authorities worldwide",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c1",
+            "name": "IDAA (Indonesia Defence Airworthiness Authority)",
+            "image": "/static/img/certification/tniau.jpg",
+            "description": "Indonesia Defence",
+            "isActive": true
+          },
+          {
+            "id": "c2",
+            "name": "DCCA Indonesia",
+            "image": "/static/img/certification/kemenhub.jpg",
+            "description": "Civil Aviation Indonesia",
+            "isActive": true
+          },
+          {
+            "id": "c3",
+            "name": "Indonesian Air Force Airworthiness & Aviation Safety Center",
+            "image": "/static/img/certification/imaa.jpg",
+            "description": "IMAA Air Force",
+            "isActive": true
+          },
+          {
+            "id": "c4",
+            "name": "FAA - USA",
+            "image": "/static/img/certification/faa.jpg",
+            "description": "United States FAA",
+            "isActive": true
+          },
+          {
+            "id": "c5",
+            "name": "CAAT - Thailand",
+            "image": "/static/img/certification/caat.png",
+            "description": "Thailand Aviation",
+            "isActive": true
+          },
+          {
+            "id": "c6",
+            "name": "CAAN - Nepal",
+            "image": "/static/img/certification/caan.png",
+            "description": "Nepal Aviation",
+            "isActive": true
+          },
+          {
+            "id": "c7",
+            "name": "TCCA - Canada",
+            "image": "/static/img/certification/tcca.png",
+            "description": "Transport Canada",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cert-sec-2",
+        "name": "Engine Manufacturer (OEM)",
+        "title": "Engine Manufacturer (OEM)",
+        "badge": "OEM Authorizations",
+        "description": "Authorized maintenance center authorizations from major engine manufacturers",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c8",
+            "name": "GE - USA",
+            "image": "/static/img/certification/ge.jpg",
+            "description": "General Electric",
+            "isActive": true
+          },
+          {
+            "id": "c9",
+            "name": "Honeywell - USA",
+            "image": "/static/img/certification/honeywell.jpg",
+            "description": "Honeywell Aerospace",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cert-sec-3",
+        "name": "Quality Management System",
+        "title": "Quality Management System",
+        "badge": "Quality & Standards",
+        "description": "Rigorous quality certifications assuring operational safety and precision calibration",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c10",
+            "name": "DNV ISO 9001 : 2015 Netherland",
+            "image": "/static/img/certification/dnv.jpg",
+            "description": "ISO 9001:2015 DNV",
+            "isActive": true
+          },
+          {
+            "id": "c11",
+            "name": "KAN LK-105-IDN",
+            "image": "/static/img/certification/kan.jpg",
+            "description": "Calibration Lab Accreditation",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cert-sec-4",
+        "name": "Industrial Turbine Services Certification",
+        "title": "Industrial Turbine Services Certification",
+        "badge": "Industrial Standards",
+        "description": "OEM industrial turbine maintenance authorizations and specialized coating standards",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c12",
+            "name": "Solar Turbines A Caterpillar Company",
+            "image": "/static/img/certification/solar.jpg",
+            "description": "Solar Turbines",
+            "isActive": true
+          },
+          {
+            "id": "c13",
+            "name": "PRAXAIR",
+            "image": "/static/img/certification/praxair.png",
+            "description": "Specialized Surface Coating",
+            "isActive": true
+          },
+          {
+            "id": "c14",
+            "name": "DNV ISO 9001 : 2015 Netherland",
+            "image": "/static/img/certification/dnv.jpg",
+            "description": "DNV Netherlands",
+            "isActive": true
+          },
+          {
+            "id": "c15",
+            "name": "KAN LK-105-IDN",
+            "image": "/static/img/certification/kan.jpg",
+            "description": "KAN Calibration",
+            "isActive": true
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "id": "cert-sec-1",
+        "name": "Airworthiness Authority",
+        "title": "Airworthiness Authority",
+        "badge": "Airworthiness Approvals",
+        "description": "Certified by civil and military aviation authorities worldwide",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c1",
+            "name": "IDAA (Indonesia Defence Airworthiness Authority)",
+            "image": "/static/img/certification/tniau.jpg",
+            "description": "Indonesia Defence",
+            "isActive": true
+          },
+          {
+            "id": "c2",
+            "name": "DCCA Indonesia",
+            "image": "/static/img/certification/kemenhub.jpg",
+            "description": "Civil Aviation Indonesia",
+            "isActive": true
+          },
+          {
+            "id": "c3",
+            "name": "Indonesian Air Force Airworthiness & Aviation Safety Center",
+            "image": "/static/img/certification/imaa.jpg",
+            "description": "IMAA Air Force",
+            "isActive": true
+          },
+          {
+            "id": "c4",
+            "name": "FAA - USA",
+            "image": "/static/img/certification/faa.jpg",
+            "description": "United States FAA",
+            "isActive": true
+          },
+          {
+            "id": "c5",
+            "name": "CAAT - Thailand",
+            "image": "/static/img/certification/caat.png",
+            "description": "Thailand Aviation",
+            "isActive": true
+          },
+          {
+            "id": "c6",
+            "name": "CAAN - Nepal",
+            "image": "/static/img/certification/caan.png",
+            "description": "Nepal Aviation",
+            "isActive": true
+          },
+          {
+            "id": "c7",
+            "name": "TCCA - Canada",
+            "image": "/static/img/certification/tcca.png",
+            "description": "Transport Canada",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cert-sec-2",
+        "name": "Engine Manufacturer (OEM)",
+        "title": "Engine Manufacturer (OEM)",
+        "badge": "OEM Authorizations",
+        "description": "Authorized maintenance center authorizations from major engine manufacturers",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c8",
+            "name": "GE - USA",
+            "image": "/static/img/certification/ge.jpg",
+            "description": "General Electric",
+            "isActive": true
+          },
+          {
+            "id": "c9",
+            "name": "Honeywell - USA",
+            "image": "/static/img/certification/honeywell.jpg",
+            "description": "Honeywell Aerospace",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cert-sec-3",
+        "name": "Quality Management System",
+        "title": "Quality Management System",
+        "badge": "Quality & Standards",
+        "description": "Rigorous quality certifications assuring operational safety and precision calibration",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c10",
+            "name": "DNV ISO 9001 : 2015 Netherland",
+            "image": "/static/img/certification/dnv.jpg",
+            "description": "ISO 9001:2015 DNV",
+            "isActive": true
+          },
+          {
+            "id": "c11",
+            "name": "KAN LK-105-IDN",
+            "image": "/static/img/certification/kan.jpg",
+            "description": "Calibration Lab Accreditation",
+            "isActive": true
+          }
+        ]
+      },
+      {
+        "id": "cert-sec-4",
+        "name": "Industrial Turbine Services Certification",
+        "title": "Industrial Turbine Services Certification",
+        "badge": "Industrial Standards",
+        "description": "OEM industrial turbine maintenance authorizations and specialized coating standards",
+        "isActive": true,
+        "items": [
+          {
+            "id": "c12",
+            "name": "Solar Turbines A Caterpillar Company",
+            "image": "/static/img/certification/solar.jpg",
+            "description": "Solar Turbines",
+            "isActive": true
+          },
+          {
+            "id": "c13",
+            "name": "PRAXAIR",
+            "image": "/static/img/certification/praxair.png",
+            "description": "Specialized Surface Coating",
+            "isActive": true
+          },
+          {
+            "id": "c14",
+            "name": "DNV ISO 9001 : 2015 Netherland",
+            "image": "/static/img/certification/dnv.jpg",
+            "description": "DNV Netherlands",
+            "isActive": true
+          },
+          {
+            "id": "c15",
+            "name": "KAN LK-105-IDN",
+            "image": "/static/img/certification/kan.jpg",
+            "description": "KAN Calibration",
+            "isActive": true
+          }
+        ]
+      }
+    ],
+    "headerTitle": "CERTIFICATIONS",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Global Standards",
+    "description": "Internationally recognized airworthiness authorizations, OEM approvals, and quality management systems assuring total flight and industrial safety compliance.",
+    "introSections": [
+      {
+        "id": "intro-1794823972598",
+        "badge": "Global Standards",
+        "title": "Our Certifications",
+        "description": "Internationally recognized airworthiness authorizations, OEM approvals, and quality management systems assuring total flight and industrial safety compliance.",
+        "isActive": true
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Our Facilities & Workflow Capabilities",
+    "description": "NTP operations are supported by comprehensive workshop machinery, test cells, and certified precision processes.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Shipping & Receiving Inspection",
+        "image": "/static/img/services/facilities.jpg"
+      },
+      {
+        "step": 2,
+        "name": "Disassemble",
+        "image": "/static/img/services/industrial01.jpg"
+      },
+      {
+        "step": 3,
+        "name": "Cleaning",
+        "image": "/static/img/services/pump01.jpg"
+      },
+      {
+        "step": 4,
+        "name": "Balancing",
+        "image": "/static/img/services/industrial02.jpg"
+      },
+      {
+        "step": 5,
+        "name": "Non-Destructive Test",
+        "image": "/static/img/services/aero01.jpg"
+      },
+      {
+        "step": 6,
+        "name": "Inspection",
+        "image": "/static/img/services/aero02.jpg"
+      },
+      {
+        "step": 7,
+        "name": "Repair Parts",
+        "image": "/static/img/services/coating01.jpg"
+      },
+      {
+        "step": 8,
+        "name": "Special Process",
+        "image": "/static/img/services/industrial01.jpg"
+      },
+      {
+        "step": 9,
+        "name": "Accessories Maintenance",
+        "image": "/static/img/services/facilities.jpg"
+      },
+      {
+        "step": 10,
+        "name": "Engine Test",
+        "image": "/static/img/services/aero01.jpg"
+      },
+      {
+        "step": 11,
+        "name": "Assemble",
+        "image": "/static/img/services/aero02.jpg"
+      },
+      {
+        "step": 12,
+        "name": "Procurement Process",
+        "image": "/static/img/services/facilities.jpg"
+      }
+    ],
+    "headerTitle": "OUR FACILITIES",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Workshop & Workflow"
+  },
+  "contact": {
+    "email": "marketing@ntp.id",
+    "web": "www.ntp.id",
+    "instagram": "@ntpindonesia",
+    "phone": "+62 22 6015696",
+    "address": "Jl. Pajajaran 154 (KP. IV) Bandung 40174 Indonesia",
+    "headline": "not sure what you need?",
+    "subheadline": "we are here to assist your engine needs"
+  },
+  "home": {
+    "slides": [
+      {
+        "active": true,
+        "title1": "YOUR TRUSTED PARTNER",
+        "title2": "TO CREATE SHARED VALUE",
+        "subtitle": "Southeast Asia's leading excellence center in aero propulsion and industrial turbine engineering.",
+        "image": "/static/img/carousel/Screenshot_20240614_123738.png",
+        "buttonText": "Explore Our Services",
+        "link": "/our-services/mro-aero-engine"
+      },
+      {
+        "active": true,
+        "title1": "AERO ENGINE SERVICES",
+        "title2": "OVER 30 YEARS OF MRO MASTERY",
+        "subtitle": "Certified by FAA, DCCA, and IDAA for turboprop, turboshaft, and turbofan overhauls.",
+        "image": "/static/img/carousel/Screenshot_20240614_123813.png",
+        "buttonText": "Aero Capabilities",
+        "link": "/our-services/mro-aero-engine"
+      },
+      {
+        "active": true,
+        "title1": "INDUSTRIAL TURBINE SERVICES",
+        "title2": "PRECISION ENERGY SOLUTIONS",
+        "subtitle": "Solar Turbines AMC Level 4 and GE LM/TM industrial mechanical solutions.",
+        "image": "/static/img/carousel/Screenshot_20240614_123754.png",
+        "buttonText": "Industrial Services",
+        "link": "/our-services/mro-industrial"
+      },
+      {
+        "active": false,
+        "title1": "FIELD SERVICES & ON-SITE SUPPORT",
+        "title2": "RESPONSIVE WORLDWIDE DEPLOYMENT",
+        "subtitle": "Field overhaul, on-site coating, borescope diagnostic, and non-destructive inspection directly at your plant.",
+        "image": "/static/img/services/facilities.jpg",
+        "buttonText": "Field Services",
+        "link": "/field-services"
+      },
+      {
+        "active": false,
+        "title1": "CERTIFIED QUALITY STANDARDS",
+        "title2": "GLOBAL AIRWORTHINESS APPROVALS",
+        "subtitle": "Comprehensive OEM approvals, ISO 9001:2015 QMS, and DGCA international safety accreditations.",
+        "image": "/static/img/services/aero02.jpg",
+        "buttonText": "View Certifications",
+        "link": "/corporate/certificate"
+      }
+    ],
+    "aboutBrief": {
+      "title": "WELCOME TO PT NUSANTARA TURBIN DAN PROPULSI",
+      "subtitle": "NTP is a world-class center of excellence in Bandung, Indonesia, delivering maintenance, repair, and overhaul for gas turbines, steam turbines, and rotating equipment across 45,000 square meters of facilities.",
+      "link": "/corporate/about-us"
+    }
+  },
+  "bodBoc": {
+    "title": "BOARD OF DIRECTORS AND COMMISSIONERS",
+    "description": "The BOD establishes the Company’s business strategies as well as the annual work plan and budget including risk management, and with the agreement of the BOC, carries out these plans.",
+    "members": [
+      {
+        "name": "Ir. Suryanto",
+        "role": "President Director / CEO",
+        "image": "/static/img/bod/dirut.jpeg",
+        "bio": "Directing strategic transformation, institutional partnerships, and global MRO service delivery."
+      },
+      {
+        "name": "Palmana Banandhi",
+        "role": "Operations & Business Director",
+        "image": "/static/img/bod/don.jpeg",
+        "bio": "Supervising workshop floor operations, engine test cell certifications, and technical quality standards."
+      },
+      {
+        "name": "Budi Kadharjono",
+        "role": "Finance & Administration Director",
+        "image": "/static/img/bod/dirkeu.jpeg",
+        "bio": "Leading financial governance, supply chain resilience, and corporate investment programs."
+      }
+    ],
+    "headerTitle": "BOD AND BOC",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Corporate Leadership",
+    "sections": [
+      {
+        "id": "sec-intro-1",
+        "type": "intro",
+        "isActive": true,
+        "badge": "Corporate Leadership",
+        "title": "BOARD OF DIRECTORS AND COMMISSIONERS",
+        "description": "The BOD establishes the Company’s business strategies as well as the annual work plan and budget including risk management, and with the agreement of the BOC, carries out these plans."
+      },
+      {
+        "id": "sec-bod-1",
+        "type": "officials",
+        "isActive": true,
+        "badge": "Dewan Direksi",
+        "title": "Board of Directors",
+        "description": "",
+        "members": [
+          {
+            "name": "Ir. Suryanto",
+            "role": "President Director / CEO",
+            "image": "/static/img/bod/dirut.jpeg",
+            "bio": "Directing strategic transformation, institutional partnerships, and global MRO service delivery."
+          },
+          {
+            "name": "Palmana Banandhi",
+            "role": "Operations & Business Director",
+            "image": "/static/img/bod/don.jpeg",
+            "bio": "Supervising workshop floor operations, engine test cell certifications, and technical quality standards."
+          },
+          {
+            "name": "Budi Kadharjono",
+            "role": "Finance & Administration Director",
+            "image": "/static/img/bod/dirkeu.jpeg",
+            "bio": "Leading financial governance, supply chain resilience, and corporate investment programs."
+          }
+        ]
+      }
+    ]
+  },
+  "awards": {
+    "title": "Our Milestone",
+    "description": "Recognitions of excellence in aerospace engineering, industrial maintenance, and safety reliability over 30 years of continuous operation.",
+    "items": [
+      {
+        "title": "Excellence in Defense Aviation MRO",
+        "year": "2023",
+        "organization": "Ministry of Defence RI",
+        "description": "Awarded for exceptional service reliability on Indonesian military aero fleet overhaul."
+      },
+      {
+        "title": "Top Performance Authorized Maintenance Center",
+        "year": "2022",
+        "organization": "OEM Partner Network",
+        "description": "Recognized for top quartile turnaround time and zero-defect quality score."
+      },
+      {
+        "title": "Industrial Turbine Overhaul Milestone",
+        "year": "2021",
+        "organization": "BPPT / BRIN",
+        "description": "Achievement for reverse engineering and 4MW geothermal turbine operations at Kamojang."
+      }
+    ],
+    "headerTitle": "AWARDS AND ACHIEVEMENTS",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Track Record",
+    "introSections": [
+      {
+        "id": "intro-1794823949398",
+        "badge": "Track Record",
+        "title": "Our Milestone",
+        "description": "Recognitions of excellence in aerospace engineering, industrial maintenance, and safety reliability over 30 years of continuous operation.",
+        "isActive": true
+      }
+    ]
+  },
+  "contactInfo": {
+    "title": "CONTACT US TODAY",
+    "subtitle": "We are ready to provide technical consultation, quote estimations, and scheduling for your engine assets.",
+    "address": "Jl. Pajajaran 154 (KP. IV) Bandung 40174 Indonesia",
+    "phone": "+62 22 6015696 / +62 22 6014030",
+    "email": "marketing@ntp.id",
+    "hours": "Monday - Friday: 08:00 - 17:00 WIB",
+    "mapImage": "/static/img/contact/maps-ntp.png",
+    "headerTitle": "CONTACT US",
+    "headerBg": "/static/img/ntp-bg-old.jpg"
+  },
+  "salesMarketing": {
+    "title": "SALES & MARKETING DIVISION",
+    "subtitle": "Dedicated technical sales specialists for aero propulsion and industrial power sectors.",
+    "teams": [
+      {
+        "sector": "Aero Engine Sales",
+        "email": "aero.marketing@ntp.id",
+        "phone": "+62 22 6015696 ext 211",
+        "description": "Inquiries for TPE331, CT7, PT6, JT8D, Dart, Tay, and military aero MRO agreements."
+      },
+      {
+        "sector": "Industrial Turbine Sales",
+        "email": "industrial.marketing@ntp.id",
+        "phone": "+62 22 6015696 ext 215",
+        "description": "Inquiries for Solar Turbines, GE LM/TM, steam turbines, pumps, and on-site field services."
+      }
+    ],
+    "headerTitle": "SALES & MARKETING",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "badge": "Commercial Inquiries",
+    "description": "Get in direct touch with our specialized commercial teams for Aero Engine MRO and Industrial Turbine Maintenance solutions."
+  },
+  "career": {
+    "headerTitle": "CAREER",
+    "headerBg": "/static/img/ntp-bg-old.jpg",
+    "title": "OUR OPEN ROLES",
+    "description": "Discover exciting career opportunities at PT. NTP and join our talented and passionate team. Explore our current openings below and find the perfect role to showcase your skills and experiences.",
+    "apiUrl": "http://127.0.0.1:8003/recruitment-api/list_jobvacan"
+  }
+}

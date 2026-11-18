@@ -1,127 +1,191 @@
 <template>
-    <div class="">
-        <div class="">
-            <Navbar24/>
-            
-            <HeaderSection>
-                <template #h2>aero engine services</template>
-                <template #h1>
-                    <span class="bg-blue-950 text-white pl-3 pr-2">experience</span> and expertise<br/>
-                    at effective <span class="bg-amber-400 text-white pl-2">cost </span>
-                </template>
-            </HeaderSection>
+  <div class="bg-white">
+    <Navbar24 />
 
-            <SlideDescWithImg sideimage="bg-[url('/static/img/services/aero01.jpg')]" rightbg=true>
-                <template #h2>Maintenance, Repair and Overhaul of Aero Engine </template>
-                <template #content>
-                    <p>
-                        We understand that maintaining engine performance so that it is always in prime condition is not an easy matter, it is complex and requires long expertise and experience to find the best conditions.
-                        <br/>
-                        With experience of more than 30 years in MRO and certified experts we believe we can meet your needs for high quality care by prioritizing the best safety and performance on :
-                        <br/>
-                    </p>
-                    <br/>
-                    <ul class="list-disc ml-4">
-                        <li>Turbo Prop, Turbo Shaft, Turbo Jet / Fan</li>
-                        <li>Component Repair</li>
-                        <li>Accesories</li>
-                        <li>Line maintenance</li>
-                    </ul>
-                </template>
-            </SlideDescWithImg>
+    <HeaderSection>
+      <template #h2>aero engine services</template>
+      <template #h1>
+        <span class="bg-blue-950 text-white pl-3 pr-2">experience</span> and expertise<br />
+        at effective <span class="bg-amber-400 text-blue-950 pl-2 pr-2 font-bold">cost</span>
+      </template>
+    </HeaderSection>
 
+    <!-- Dynamic Sections -->
+    <MroSectionRenderer
+      v-for="(sec, sIdx) in activeSections"
+      :key="sec.id || sIdx"
+      :section="sec"
+    />
 
-            <SlideDescWithImg sideimage="bg-[url('/static/img/services/aero02.jpg')]">
-                <template #h2>Production Engine Assembly & Other Services </template>
-                <template #content>
-                    <p>
-                        To face ever changing global competition, NTP provides other services to help you prepare for it. We will support your need for following services :
-                    </p>
-                    <br/>
-
-                    <div class="my-5 md:mx-2 md:inline-block ">
-                        <a href="#" class="whitespace-nowrap text-nowrap p-3 md:py-5 md:px-10  tracking-[.3rem] text-left text-xs md:text-sm uppercase font-normal focus:outline-none bg-transparent border border-blue-950 hover:bg-gray-200/80 focus:z-10 focus:ring-4 focus:ring-gray-100 ">
-                            Training
-                        </a>
-                    </div>
-                    <div class="my-5 md:mx-2 md:inline-block">
-                        <a href="#" class="whitespace-nowrap text-nowrap p-3 md:py-5 md:px-10 tracking-[.3rem] text-left text-xs md:text-sm uppercase font-normal focus:outline-none bg-transparent border border-blue-950 hover:bg-gray-200/80 focus:z-10 focus:ring-4 focus:ring-gray-100 ">
-                            On Wing Maintenance
-                        </a>
-                    </div>                                
-                    <div class="my-5 md:mx-2 md:inline-block">
-                        <a href="#" class="whitespace-nowrap text-nowrap p-3 md:py-5 md:px-10 tracking-[.3rem] text-left text-xs md:text-sm uppercase font-normal focus:outline-none bg-transparent border border-blue-950 hover:bg-gray-200/80 focus:z-10 focus:ring-4 focus:ring-gray-100 ">
-                            Sparepart Sale
-                        </a>
-                    </div>     
-                    <div class="my-5 md:mx-2 md:inline-block">
-                        <a href="#" class="whitespace-nowrap text-nowrap p-3 md:py-5 md:px-10 tracking-[.3rem] text-left text-xs md:text-sm uppercase font-normal focus:outline-none bg-transparent border border-blue-950 hover:bg-gray-200/80 focus:z-10 focus:ring-4 focus:ring-gray-100 ">
-                            Other Services
-                        </a>
-                    </div>    
-                </template>
-            </SlideDescWithImg>
-
-            <SlideDescWithImg sideimage="bg-[url('/static/img/services/aero01.jpg')]" rightbg=true>
-                <template #h2>Support Facilities & Accesories</template>
-                <template #content>
-                    <p>
-                        NTP is equipped with complete facilities to support your aircraft's maintenance repair and engine overhaul activities, including the following :
-                    </p>
-                    <br/>
-
-                    <div id="accordion-collapse" data-accordion="collapse">
-                        <h2 id="accordion-collapse-heading-1">
-                            <button type="button" class="flex items-center justify-between w-full p-5 pl-0 text-xl md:text-2xl font-bold border-b-4 border-black hover:bg-gray-100 gap-3" 
-                                data-accordion-target="#accordion-collapse-body-1" aria-controls="accordion-collapse-body-1">
-                                <span>Workshop Repair</span>
-                                <!-- <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-                                </svg> -->
-                            </button>
-                        </h2>
-                        <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-                            <div class="p-5 ">
-                            <p class="mb-2">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                            <p class="">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
-                            </div>
-                        </div>
-                        
-                        <h2 id="accordion-collapse-heading-3">
-                            <button type="button" class="flex items-center justify-between w-full p-5 pl-0 text-xl md:text-2xl font-bold border-b-4 border-black hover:bg-gray-100 gap-3" 
-                            data-accordion-target="#accordion-collapse-body-3" aria-controls="accordion-collapse-body-3">
-                            <span>Field Service</span>
-                            <!-- <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-                            </svg> -->
-                            </button>
-                        </h2>
-                        <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
-                            <div class="p-5">
-                            <p class="mb-2">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                            <p class="">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
-                            </div>
-                        </div>
-                    </div>
-                </template>
-            </SlideDescWithImg>
-
-            <div class="px-7 md:pt-24  mx-auto max-w-screen-xl">
-            <h2 class="text-blue-950 font-bold text-3xl md:text-4xl md:pl-0 md:pt-0">Engine Capabilities</h2>
-                
-            </div>
-
-            
-            <ContactSection/>
-            
-            <FooterSection/>
-
-        </div>
-    </div>
+    <ContactSection />
+    <FooterSection />
+  </div>
 </template>
+
 <script setup lang="ts">
+import { computed } from 'vue';
+
 definePageMeta({
-    layout:'tw'
+  layout: 'tw'
 });
 
+useHead({
+  title: 'MRO Aero Engine Services'
+});
+
+const { data: content } = await useSiteContent('aeroEngine');
+
+const activeSections = computed(() => {
+  if (Array.isArray(content.value?.sections) && content.value.sections.length > 0) {
+    return content.value.sections.filter((s: any) => s.isActive !== false);
+  }
+  return defaultAeroSections;
+});
+
+const defaultAeroSections = [
+  {
+    id: 'aero-intro',
+    type: 'split-editorial',
+    isActive: true,
+    badge: 'Aviation Propulsion Mastery',
+    title: 'Maintenance, Repair and Overhaul of Aero Engine',
+    description: 'Maintaining Aero Engines Performances to its prime condition is not an easy feat. It requires a substantial level of experience and expertise to find the best conditions. With an experience of over 30 years in the MRO business backed up by certified experts, NTP can deliver your needs for high-quality care by prioritizing the best safety and performance on:',
+    image: '/static/img/services/aero01.jpg',
+    displayType: 'list',
+    rightbg: true,
+    items: [
+      'Turbo Prop, Turbo Shaft, Turbo Jet / Fan',
+      'Component Repair',
+      'Accessories',
+      'Line maintenance'
+    ]
+  },
+  {
+    id: 'aero-amc',
+    type: 'amc-showcase',
+    isActive: true,
+    badge: 'OEM Authorizations',
+    title: 'Authorized Maintenance Center (AMC)',
+    description: 'Certified aero engine maintenance, repair, and overhaul capabilities authorized directly by global engine manufacturers.',
+    items: [
+      {
+        isActive: true,
+        badge: 'Authorized Maintenance Center (AMC)',
+        title: 'by Honeywell since 1986',
+        engine: 'Honeywell - TPE 331',
+        series: 'Series: TPE331 -2, -5, -10',
+        aircraft: 'Aircraft: Casa 212 Series, Dornier 228',
+        image: '/static/img/engine/tpe331.png'
+      },
+      {
+        isActive: true,
+        badge: 'Authorized Maintenance Center (AMC)',
+        title: 'by GE since 1988',
+        engine: 'General Electric - CT7',
+        series: 'Series: CT7 -5, -7, -9',
+        aircraft: 'Aircraft: CN 235 Series, Saab 340',
+        image: '/static/img/engine/ge-ct7.png'
+      }
+    ]
+  },
+  {
+    id: 'aero-grouped-engines',
+    type: 'grouped-grid',
+    isActive: true,
+    badge: 'Fleet Capabilities',
+    title: 'Engine Capabilities & Specifications',
+    description: 'Comprehensive certified aero engine maintenance, repair, and overhaul capabilities.',
+    groups: [
+      {
+        id: 'grp-fan-jet',
+        badge: 'Turbo Fan / Jet',
+        itemLabel: 'Aircraft',
+        colSpan: 4,
+        items: [
+          {
+            name: 'Pratt & Whitney JT8D',
+            aircraft: 'Boeing 737-200',
+            series: 'Series: JT8D -9, -9A, -15, -15A, -17, -17A',
+            image: '/static/img/engine/jt8d2.png',
+            isActive: true
+          },
+          {
+            name: 'Rolls Royce TAY 650',
+            aircraft: 'Fokker 100',
+            series: 'Series: Tay 650-15',
+            image: '/static/img/engine/tay6.png',
+            isActive: true
+          }
+        ]
+      },
+      {
+        id: 'grp-prop-shaft',
+        badge: 'Turbo Prop / Shaft',
+        itemLabel: 'Aircraft',
+        colSpan: 8,
+        items: [
+          {
+            name: 'Pratt & Whitney PT6A',
+            aircraft: 'Twin otter, Cessna Grand Caravan, Super Tucano, KT-1B',
+            series: 'Series: PT6A -21, -25, -27, -28, -34, -114, -140',
+            image: '/static/img/engine/pt6a.png',
+            isActive: true
+          },
+          {
+            name: 'Pratt & Whitney PT6T',
+            aircraft: 'Bell 412, Bell 212',
+            series: 'Series: PT6T -3, -3B, -3D, -3E, -3DF',
+            image: '/static/img/engine/pt6t.png',
+            isActive: true
+          },
+          {
+            name: 'Pratt & Whitney PW100 Series',
+            aircraft: 'ATR 42, ATR 72, Casa 295',
+            series: 'Series: PW124B, PW127E, -F, -J, -M',
+            image: '/static/img/engine/pw100.png',
+            isActive: true
+          },
+          {
+            name: 'Rolls Royce Dart7',
+            aircraft: 'Fokker 27',
+            series: 'Series: Dart 7-525 to -536',
+            image: '/static/img/engine/dart7.png',
+            isActive: true
+          },
+          {
+            name: 'Rolls Royce M250',
+            aircraft: 'Eurocopter Twinstar BO 105, Grob',
+            series: 'Series: Model 250 C20, C20B',
+            image: '/static/img/engine/m250.png',
+            isActive: true
+          },
+          {
+            name: 'Rolls Royce Allison T56',
+            aircraft: 'Hercules C130',
+            series: 'Series: T56-A-15/LFE',
+            image: '/static/img/engine/tpe331.png',
+            isActive: true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'aero-support',
+    type: 'split-editorial',
+    isActive: true,
+    badge: 'Propulsion Life-Cycle',
+    title: 'Production Engine Assembly & Support Facilities',
+    description: 'To face ever-changing global competition, NTP provides dedicated services to support complete aircraft propulsion life-cycle requirements:',
+    image: '/static/img/services/aero02.jpg',
+    displayType: 'card',
+    rightbg: false,
+    items: [
+      'Workshop Repair & Balancing',
+      'On-Wing Maintenance',
+      'OEM Sparepart Sales',
+      'Engine Test Cell Validation'
+    ]
+  }
+];
 </script>
